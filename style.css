@@ -1,0 +1,388 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-image: linear-gradient(90deg, #f6d365, #fda085);
+  font-family: "Poppins", sans-serif;
+  height: 100%;
+}
+/* FIRST BLOCK ---------------------------------------------------- */
+.wrapper {
+  padding: 50px;
+  max-width: 880px;
+  margin: 0px auto;
+}
+
+.container {
+}
+
+.first__block {
+}
+
+.first__block-title {
+  text-align: center;
+  color: #ffffff;
+}
+
+.first__block-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.first__block-item {
+  background: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.5s;
+
+  position: relative;
+  width: 170px;
+  height: 120px;
+
+  margin: 0px 0px 50px 0px;
+}
+
+.education-text {
+  padding: 18px;
+  text-align: center;
+}
+
+.busywork-text {
+  padding: 25px 0 0 0;
+  text-align: center;
+}
+
+.relaxation-text {
+  padding: 15px 0 0 0;
+  text-align: center;
+}
+
+.music-text {
+  padding: 25px 0 0 0;
+  text-align: center;
+}
+
+.dotted-line {
+  position: absolute;
+  top: 90px;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid black;
+  border-bottom-style: dashed;
+}
+
+.first__block-text1 {
+  position: absolute;
+  top: -5px;
+  left: 45px;
+  text-align: center;
+  padding-top: 100px;
+}
+.first__block-text3 {
+  position: absolute;
+  top: -5px;
+  left: 45px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.first__block-text4 {
+  position: absolute;
+  top: -5px;
+  left: 55px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.first__block-text2 {
+  position: absolute;
+  top: -5px;
+  left: 50px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.big_dotted-line {
+  border-bottom: 1px solid black;
+  border-bottom-style: dashed;
+}
+
+/* SECOND BLOCK-------------------------------------------- */
+
+.slider {
+  width: 480px;
+  height: 200px;
+
+  margin: 30px auto;
+
+  overflow: hidden;
+}
+.slider-items {
+  display: flex;
+  position: relative;
+}
+.slider-line {
+  height: 495px;
+  width: 990px;
+  background-color: linear-gradient(90deg, #f6d365, #fda085);
+  display: flex;
+  position: relative;
+  left: 0;
+  transition: all ease 1s;
+}
+
+.number {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.slider-next-1 {
+  width: 0px;
+  position: absolute;
+  top: 57px;
+  left: 75px;
+}
+
+.slider-img-1 {
+  width: 50px;
+  height: 50px;
+  transform: rotate(180deg);
+}
+
+.slider-next {
+  width: 0px;
+  position: absolute;
+  top: 60px;
+  left: 655px;
+}
+
+.slider-img {
+  width: 50px;
+  height: 50px;
+}
+.second__block-title {
+  color: #ffffff;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.second__block-text {
+  margin: 15px;
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+  width: 160px;
+  height: 80px;
+}
+.music_block {
+  border-radius: 20px;
+  background-color: white;
+  position: relative;
+  width: 170px;
+  height: 120px;
+
+  margin: 0px 0px 45px 0px;
+}
+
+.music-text {
+  padding: 25px 0 0 0;
+  text-align: center;
+}
+.second__block-text2 {
+  position: absolute;
+  top: -5px;
+  left: 57px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+/* THIRD BLOCK --------------------------------------- */
+
+.third__block-title {
+  color: #ffffff;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.third__block-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.thirdfirst__items {
+  display: flex;
+  justify-content: center;
+}
+
+.twolast__items {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+
+.third__block-item {
+  position: relative;
+  padding: 45px;
+}
+
+.circle-sport {
+  position: relative;
+  width: 125px;
+  height: 125px;
+
+  border-radius: 50%;
+}
+.circle-relax {
+  position: relative;
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+}
+
+.circle-education {
+  position: relative;
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+}
+
+.circle-recrational {
+  position: relative;
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+}
+
+.circle-social {
+  position: relative;
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+}
+
+.circle {
+  position: relative;
+  width: 125px;
+  height: 125px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.circle__number-1 {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 90px;
+  left: 99px;
+}
+
+.circle__text-1 {
+  position: absolute;
+  top: 185px;
+  left: 60px;
+}
+
+.circle__number-2 {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 90px;
+  left: 99px;
+}
+
+.circle__text-2 {
+  position: absolute;
+  top: 185px;
+  left: 85px;
+}
+
+.circle__number-3 {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 90px;
+  left: 99px;
+}
+
+.circle__text-3 {
+  position: absolute;
+  top: 185px;
+  left: 70px;
+}
+
+.circle__number-4 {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 90px;
+  left: 100px;
+}
+
+.circle__text-4 {
+  position: absolute;
+  top: 185px;
+  left: 84px;
+}
+
+.circle__number-5 {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 90px;
+  left: 99px;
+}
+
+.circle__text-5 {
+  position: absolute;
+  top: 185px;
+  left: 70px;
+}
+
+/* FOURTH BLOCK -------------------------------- */
+
+.fourth__block-title {
+  color: #ffffff;
+  text-align: center;
+  margin: 25px 0 30px 0;
+}
+
+TABLE {
+  background: linear-gradient(90deg, #f598a8, #f6edb2);
+
+  border: 2px solid #fff;
+  width: 750px; /* Ширина таблицы */
+  height: 200px;
+}
+TD,
+TH {
+  padding: 10px; /* Поля вокруг содержимого ячеек */
+  border-color: #fff;
+  color: #000;
+}
+TH {
+  text-align: left; /* Выравнивание по левому краю */
+  border-bottom: 2px solid #fff; /* Линия снизу */
+}
+
+td {
+}
+.vl {
+  border-right: 2px solid #fff; /* Линия справа */
+  text-align: center;
+}
+
+th,
+td:first-child {
+}
